@@ -1,0 +1,356 @@
+:root{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.x2{
+    position: fixed;
+    top: 0px;
+    width: 1550px;
+    height: 90px;
+    z-index: 1000;
+    background-color: black;
+}
+
+
+.ul{
+    background-color: black;
+    overflow: hidden;
+}
+.a2{
+    background-color: black;
+}
+.a12{
+    position: relative;
+    left: 100px;
+    top: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: aqua;
+    width: 120px;
+    border: 2px solid black;
+    padding:5px 10px 5px 10px;
+    transition: 1s;
+}
+.a12:hover{
+    position: relative;
+    padding: 5px;
+    width: 120px;
+    border-radius: 30px;
+    border: 2px solid rgb(198, 94, 224);
+    padding:5px 10px 5px 10px;
+    transition: 1s;
+}
+.a5{
+    position: fixed;
+    left:220px;
+    top:70px;
+    color: aquamarine;
+    font-size: 10px;
+    font-family:cursive;
+}
+.a111{
+    position: absolute;
+    left: 1100px;
+    text-decoration: none;
+    color: aqua;
+    transition: 1s;
+    cursor: pointer;
+}
+.a111:hover{
+    position: absolute;
+    color: beige;
+    font-size:20px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.a112{
+    position: absolute;
+    left: 1200px;
+    text-decoration: none;
+    color: aqua;
+    transition: 1s;
+    cursor: pointer;
+}
+.a112:hover{
+    position: absolute;
+    color: beige;
+    font-size:20px;
+    transition: 1s;
+}
+
+.a113{
+    position: absolute;
+    left: 1300px;
+    text-decoration: none;
+    color: aqua;
+    transition: 1s;
+}
+.a113:hover{
+    position: absolute;
+    color: beige;
+    font-size:20px;
+    transition: 1s;
+}
+
+.a11{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: wheat;
+    position: fixed;
+    top: 25px;
+    display: flex;
+    list-style: none;
+}
+.b1{
+    color: rgb(146, 196, 237);
+    position: absolute;
+    top: 200px;
+    left: 440px;
+    font-size:40px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.b2{
+    color: rgb(146, 196, 237);
+    position: absolute;
+    top: 214px;
+    left: 462px;
+    font-size:25px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.b3{
+    color: rgb(146, 196, 237);
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    font-size:40px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.b4{
+    color: rgb(146, 196, 237);
+    position: absolute;
+    top: 214px;
+    left: 523px;
+    font-size:25px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.b5{
+    color: aliceblue;
+    position: absolute;
+    left: 440px;
+    top: 250px;
+    font-family:cursive;
+    font-size: 15px;
+}
+
+
+.night1{
+    position: absolute;
+    left: 1400px;
+    top: 23px;
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+    box-shadow: 10px 5px 20px gray;
+}
+.b6{
+    position:absolute;
+    top:-4.5px;
+    right:1px;
+    color: black;
+    font-size: 20px;
+    display:inline;
+}
+
+.d1{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: white;
+    font-size: 30px;
+    font-family:cursive;
+}
+.g1{
+    position: absolute;
+    top: 320px;
+    left: 190px;
+    color: white;
+    font-size: 20px;
+    font-family:cursive;
+}
+.f1{
+    position: absolute;
+    top: 300px;
+    left: 230px;
+    color: white;
+    font-size: 20px;
+    font-family:cursive;
+}
+
+.g2{
+    position: absolute;
+    top: 370px;
+    left: 190px;
+    color: white;
+    font-size: 20px;
+    font-family:cursive;
+}
+.f2{
+    position: absolute;
+    left: 230px;
+    top: 350px;
+    color: rgb(227, 241, 241);
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.g3{
+    position: absolute;
+    top: 450px;
+    left: 190px;
+    color: white;
+    font-size: 20px;
+    font-family:cursive;
+}
+.f3{
+    position: absolute;
+    top: 430px;
+    left: 230px;
+    color: rgb(227, 241, 241);
+    font-family: cursive;
+    font-size: 20px;
+}
+.f4{
+    position: absolute;
+    top: 550px;
+    left: 200px;
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.f5{
+    position: absolute;
+    top: 650px;
+    left: 230px;
+    color: rgb(227, 241, 241);
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.f6{
+    position: absolute;
+    top: 800px;
+    left: 200px;
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+}
+.underLine{
+    text-decoration-line: underline;
+    text-decoration-color: aliceblue;
+    text-decoration-style:none ;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+}
+.f7{
+    position: absolute;
+    top: 900px;
+    left: 230px;
+    color: rgb(223, 240, 240);
+    font-family: cursive;
+    font-size: 20px;
+}
+.f8{
+    position: absolute;
+    top: 950px;
+    left: 230px;
+    color: rgb(154, 210, 243);
+    font-family:monospace;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.f9{
+    position: absolute;
+    top: 1000px;
+    left: 200px;
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.f10{
+    position: absolute;
+    top: 1100px;
+    left: 270px;
+    color: rgb(194, 232, 239);
+    font-family: cursive;
+    font-size: 20px;
+}
+.g4{
+    position: absolute;
+    top: 1119px;
+    left: 235px;
+    color: white;
+    font-size: 20px;
+    font-family:cursive;
+}
+.f11{
+    position: absolute;
+    top: 1150px;
+    left: 270px;
+    color: rgb(194, 232, 239);
+    font-family: cursive;
+    font-size: 20px;
+}
+.g5{
+    position: absolute;
+    top: 1169px;
+    left: 235px;
+    color: white;
+    font-size: 20px;
+    font-family:cursive;
+}
+.f12{
+    position: absolute;
+    top: 1200px;
+    left: 270px;
+    color: rgb(194, 232, 239);
+    font-family: cursive;
+    font-size: 20px;
+}
+.g6{
+    position: absolute;
+    top: 1219px;
+    left: 235px;
+    color: white;
+    font-size: 20px;
+    font-family:cursive;
+}
+
+.f13{
+    position: absolute;
+    top: 1250px;
+    left: 270px;
+    color: rgb(194, 232, 239);
+    font-family: cursive;
+    font-size: 20px;
+}
+.g7{
+    position: absolute;
+    top: 1269px;
+    left: 235px;
+    color: white;
+    font-size: 20px;
+    font-family:cursive;
+}
